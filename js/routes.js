@@ -25,3 +25,5 @@
 // 
 // conduit.route('/', loginProtected('dashboard'));
 // this will render login.html if no user is logged in, and will otherwise render dashboard.html
+
+conduit.route('/', 'main');
